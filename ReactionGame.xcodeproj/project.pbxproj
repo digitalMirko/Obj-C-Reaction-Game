@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC8804001BC08782006168E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC8803FF1BC08782006168E9 /* main.m */; };
+		AC8804031BC08782006168E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC8804021BC08782006168E9 /* AppDelegate.m */; };
+		AC8804061BC08782006168E9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC8804051BC08782006168E9 /* ViewController.m */; };
+		AC8804091BC08782006168E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC8804071BC08782006168E9 /* Main.storyboard */; };
+		AC88040B1BC08782006168E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC88040A1BC08782006168E9 /* Assets.xcassets */; };
+		AC88040E1BC08782006168E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC88040C1BC08782006168E9 /* LaunchScreen.storyboard */; };
+		AC8804191BC08782006168E9 /* ReactionGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC8804181BC08782006168E9 /* ReactionGameTests.m */; };
+		AC8804241BC08782006168E9 /* ReactionGameUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC8804231BC08782006168E9 /* ReactionGameUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC8804151BC08782006168E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC8803F31BC08782006168E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC8803FA1BC08782006168E9;
+			remoteInfo = ReactionGame;
+		};
+		AC8804201BC08782006168E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC8803F31BC08782006168E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC8803FA1BC08782006168E9;
+			remoteInfo = ReactionGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC8803FB1BC08782006168E9 /* ReactionGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactionGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC8803FF1BC08782006168E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AC8804011BC08782006168E9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AC8804021BC08782006168E9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AC8804041BC08782006168E9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AC8804051BC08782006168E9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AC8804081BC08782006168E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC88040A1BC08782006168E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC88040D1BC08782006168E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC88040F1BC08782006168E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC8804141BC08782006168E9 /* ReactionGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactionGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC8804181BC08782006168E9 /* ReactionGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactionGameTests.m; sourceTree = "<group>"; };
+		AC88041A1BC08782006168E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC88041F1BC08782006168E9 /* ReactionGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactionGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC8804231BC08782006168E9 /* ReactionGameUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactionGameUITests.m; sourceTree = "<group>"; };
+		AC8804251BC08782006168E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC8803F81BC08782006168E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC8804111BC08782006168E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC88041C1BC08782006168E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC8803F21BC08782006168E9 = {
+			isa = PBXGroup;
+			children = (
+				AC8803FD1BC08782006168E9 /* ReactionGame */,
+				AC8804171BC08782006168E9 /* ReactionGameTests */,
+				AC8804221BC08782006168E9 /* ReactionGameUITests */,
+				AC8803FC1BC08782006168E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC8803FC1BC08782006168E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC8803FB1BC08782006168E9 /* ReactionGame.app */,
+				AC8804141BC08782006168E9 /* ReactionGameTests.xctest */,
+				AC88041F1BC08782006168E9 /* ReactionGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC8803FD1BC08782006168E9 /* ReactionGame */ = {
+			isa = PBXGroup;
+			children = (
+				AC8804011BC08782006168E9 /* AppDelegate.h */,
+				AC8804021BC08782006168E9 /* AppDelegate.m */,
+				AC8804041BC08782006168E9 /* ViewController.h */,
+				AC8804051BC08782006168E9 /* ViewController.m */,
+				AC8804071BC08782006168E9 /* Main.storyboard */,
+				AC88040A1BC08782006168E9 /* Assets.xcassets */,
+				AC88040C1BC08782006168E9 /* LaunchScreen.storyboard */,
+				AC88040F1BC08782006168E9 /* Info.plist */,
+				AC8803FE1BC08782006168E9 /* Supporting Files */,
+			);
+			path = ReactionGame;
+			sourceTree = "<group>";
+		};
+		AC8803FE1BC08782006168E9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC8803FF1BC08782006168E9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AC8804171BC08782006168E9 /* ReactionGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC8804181BC08782006168E9 /* ReactionGameTests.m */,
+				AC88041A1BC08782006168E9 /* Info.plist */,
+			);
+			path = ReactionGameTests;
+			sourceTree = "<group>";
+		};
+		AC8804221BC08782006168E9 /* ReactionGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC8804231BC08782006168E9 /* ReactionGameUITests.m */,
+				AC8804251BC08782006168E9 /* Info.plist */,
+			);
+			path = ReactionGameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC8803FA1BC08782006168E9 /* ReactionGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC8804281BC08783006168E9 /* Build configuration list for PBXNativeTarget "ReactionGame" */;
+			buildPhases = (
+				AC8803F71BC08782006168E9 /* Sources */,
+				AC8803F81BC08782006168E9 /* Frameworks */,
+				AC8803F91BC08782006168E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReactionGame;
+			productName = ReactionGame;
+			productReference = AC8803FB1BC08782006168E9 /* ReactionGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC8804131BC08782006168E9 /* ReactionGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC88042B1BC08783006168E9 /* Build configuration list for PBXNativeTarget "ReactionGameTests" */;
+			buildPhases = (
+				AC8804101BC08782006168E9 /* Sources */,
+				AC8804111BC08782006168E9 /* Frameworks */,
+				AC8804121BC08782006168E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC8804161BC08782006168E9 /* PBXTargetDependency */,
+			);
+			name = ReactionGameTests;
+			productName = ReactionGameTests;
+			productReference = AC8804141BC08782006168E9 /* ReactionGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC88041E1BC08782006168E9 /* ReactionGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC88042E1BC08783006168E9 /* Build configuration list for PBXNativeTarget "ReactionGameUITests" */;
+			buildPhases = (
+				AC88041B1BC08782006168E9 /* Sources */,
+				AC88041C1BC08782006168E9 /* Frameworks */,
+				AC88041D1BC08782006168E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC8804211BC08782006168E9 /* PBXTargetDependency */,
+			);
+			name = ReactionGameUITests;
+			productName = ReactionGameUITests;
+			productReference = AC88041F1BC08782006168E9 /* ReactionGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC8803F31BC08782006168E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Digital Mirko";
+				TargetAttributes = {
+					AC8803FA1BC08782006168E9 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					AC8804131BC08782006168E9 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = AC8803FA1BC08782006168E9;
+					};
+					AC88041E1BC08782006168E9 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = AC8803FA1BC08782006168E9;
+					};
+				};
+			};
+			buildConfigurationList = AC8803F61BC08782006168E9 /* Build configuration list for PBXProject "ReactionGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC8803F21BC08782006168E9;
+			productRefGroup = AC8803FC1BC08782006168E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC8803FA1BC08782006168E9 /* ReactionGame */,
+				AC8804131BC08782006168E9 /* ReactionGameTests */,
+				AC88041E1BC08782006168E9 /* ReactionGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC8803F91BC08782006168E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC88040E1BC08782006168E9 /* LaunchScreen.storyboard in Resources */,
+				AC88040B1BC08782006168E9 /* Assets.xcassets in Resources */,
+				AC8804091BC08782006168E9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC8804121BC08782006168E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC88041D1BC08782006168E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC8803F71BC08782006168E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC8804061BC08782006168E9 /* ViewController.m in Sources */,
+				AC8804031BC08782006168E9 /* AppDelegate.m in Sources */,
+				AC8804001BC08782006168E9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC8804101BC08782006168E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC8804191BC08782006168E9 /* ReactionGameTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC88041B1BC08782006168E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC8804241BC08782006168E9 /* ReactionGameUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC8804161BC08782006168E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC8803FA1BC08782006168E9 /* ReactionGame */;
+			targetProxy = AC8804151BC08782006168E9 /* PBXContainerItemProxy */;
+		};
+		AC8804211BC08782006168E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC8803FA1BC08782006168E9 /* ReactionGame */;
+			targetProxy = AC8804201BC08782006168E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC8804071BC08782006168E9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC8804081BC08782006168E9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC88040C1BC08782006168E9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC88040D1BC08782006168E9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC8804261BC08783006168E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AC8804271BC08783006168E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC8804291BC08783006168E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ReactionGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.digitalmirko.ReactionGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AC88042A1BC08783006168E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ReactionGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.digitalmirko.ReactionGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AC88042C1BC08783006168E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ReactionGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.digitalmirko.ReactionGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactionGame.app/ReactionGame";
+			};
+			name = Debug;
+		};
+		AC88042D1BC08783006168E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ReactionGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.digitalmirko.ReactionGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactionGame.app/ReactionGame";
+			};
+			name = Release;
+		};
+		AC88042F1BC08783006168E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ReactionGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.digitalmirko.ReactionGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ReactionGame;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		AC8804301BC08783006168E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ReactionGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.digitalmirko.ReactionGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ReactionGame;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC8803F61BC08782006168E9 /* Build configuration list for PBXProject "ReactionGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC8804261BC08783006168E9 /* Debug */,
+				AC8804271BC08783006168E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC8804281BC08783006168E9 /* Build configuration list for PBXNativeTarget "ReactionGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC8804291BC08783006168E9 /* Debug */,
+				AC88042A1BC08783006168E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AC88042B1BC08783006168E9 /* Build configuration list for PBXNativeTarget "ReactionGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC88042C1BC08783006168E9 /* Debug */,
+				AC88042D1BC08783006168E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AC88042E1BC08783006168E9 /* Build configuration list for PBXNativeTarget "ReactionGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC88042F1BC08783006168E9 /* Debug */,
+				AC8804301BC08783006168E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC8803F31BC08782006168E9 /* Project object */;
+}
